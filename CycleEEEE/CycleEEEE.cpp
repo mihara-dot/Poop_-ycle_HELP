@@ -1,7 +1,6 @@
 ﻿/******************************************
  * Автор:    Рычков Михаил                *
  * Название: Циклы с пред- и постусловием *
- *           и постусловием               *
  * Вариант:  27                           *
  ******************************************/
 
@@ -11,8 +10,8 @@
 using namespace std;
 
 int main() {
-  double heatFlow, liquidTemperature, ambientTemperature, innerDiameter, outerDiameter, coefficientThermalConductivity, coefficientHeatDissipation, pipeLength;
   const double pi = 3.14159;
+  double heatFlow, liquidTemperature, ambientTemperature, innerDiameter, outerDiameter, coefficientThermalConductivity, coefficientHeatDissipation, pipeLength;
   double firstStartDiameter = 0.091;
   double firstEndDiameter = 0.095;
   double firstStep = 0.001;

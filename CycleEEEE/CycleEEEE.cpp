@@ -13,7 +13,7 @@ using namespace std;
 int main() {
   double heatFlow, liquidTemperature, ambientTemperature, innerDiameter, outerDiameter, coefficientThermalConductivity, coefficientHeatDissipation, pipeLength;
   const double pi = 3.14159;
-  double firstStartDiameter = 0.091;
+  const double firstStartDiameter = 0.091;
   double firstEndDiameter = 0.095;
   double firstStep = 0.001;
   double secondStartDiameter = 0.110;

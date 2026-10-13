@@ -50,7 +50,7 @@ int main() {
     cout << "d0 = " << outerDiameter << " m, "
          << "Q = " << heatFlow << endl;
 
-    diameterIndex++;
+    ++diameterIndex;
   } while (outerDiameter <= firstEndDiameter);
 
   diameterIndex = 0;
@@ -63,7 +63,7 @@ int main() {
     cout << "d0 = " << outerDiameter << " m, "
          << "Q = " << heatFlow << endl;
 
-    diameterIndex++;
+    ++diameterIndex;
   }
 
   return 0;
